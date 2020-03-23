@@ -4,7 +4,9 @@ var app = new Vue({
     el: "#app",
     data:{
         product: "Socks",
-        image: "./images/vmSocks-green-onWhite.jpg"
+        image: "./images/vmSocks-green-onWhite.jpg",
+        inventory: 0,
+        inStock: false
     }
 
 })
